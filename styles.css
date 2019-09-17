@@ -1,0 +1,84 @@
+body { 
+    font-family: sans-serif;
+    margin: 0;
+    background: url(http://www.blckdmnds.com/wp-content/uploads/2013/03/six-feet-under-21.jpg) slategray no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+
+a {
+	color: blue;
+	transition: all 0.2s ease-in;
+}
+
+a:visited {
+    color: rgb(255, 0, 0); 
+}
+
+a:hover {
+   background-color: brown
+}
+
+.mainnav {
+    background: green;
+}
+
+.linklist {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footernav {
+    background-color: burlywood;
+}
+
+.heading-one {
+    font-style: italic;
+    background-color: white;
+}
+
+.heading-two {
+    font-style: italic;
+    background-color: white;
+}
+
+.text {
+    background-color: white;
+    opacity: inherit;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.media {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-53%, -50%);
+}
+
+li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+li:hover {
+    color: #292929;
+    border: 1px solid #292929;
+    transition: .5s;
+}

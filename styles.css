@@ -69,7 +69,7 @@ p {
 }
 
 .media {
-    position: absolute;
+    position: fixed;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -158,10 +158,34 @@ li:hover {
       padding: 20px 20px;
       border-radius: 61px;
       position: flex;
-      
   }
-
 
  .group {
     position: center;
+ }
+
+ .about-list {
+     display: flex;
+     justify-content: space-around;
+     box-shadow: none;
+ }
+
+.home-logo {
+    display: inline-block;
+    align-content: center;
+    width: 25%;
+    height: 25%;
+}
+
+    
+     
+
+
+
+ .header {
+     
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+
  }

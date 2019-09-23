@@ -1,13 +1,15 @@
+/**
+ * Global styles
+ */
+
 body { 
     font-family: sans-serif;
     margin: 0;
     background: url(http://www.blckdmnds.com/wp-content/uploads/2013/03/six-feet-under-21.jpg) slategray no-repeat center center fixed; 
     background-size: cover;
-  }
-
-.head {
-    position: center;
+    margin-bottom: 15rem;
 }
+
 
 a {
 	color: black;
@@ -19,44 +21,8 @@ a:visited {
 }
 
 a:hover {
-   color: blanchedalmond;
-   transform: scale(5px);
-}
-
-.mainnav {
-    background: rgba(0,0,0,0.5);
-}
-
-.linklist {
-    display: flex;
-    justify-content: space-evenly;
-    position: absolute;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    top: 45%;
-    
-     
-}
-
-.footernav {
-    background-color:rgba(0,0,0,0.5);
-}
-
-.heading-one {
-    font-style: italic;
-    background-color: white;
-}
-
-.heading-two {
-    font-style: italic;
-    background-color: white;
-}
-
-.text {
-    color: white;
-    background-color: rgba(0,0,0,0.5);
-    opacity: inherit;
+    color: gray;
+    transform: scale(5px);
 }
 
 p {
@@ -68,11 +34,124 @@ p {
     margin-top: 0;
 }
 
-.media {
-    position: fixed;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.body-text {
+    color: white;
+    opacity: inherit;
+    width: 300px;
+    border: 5rem solid whitesmoke;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+}
+
+/**
+ * Component Styles
+ */
+
+.head {
+    position: center;
+}
+
+.home-logo {
+    display: inline-block;
+    align-content: center;
+    width: 25%;
+    height: 25%;
+}
+
+.page-title {
+    color: whitesmoke;
+    padding-left: 10rem;
+}
+
+.heading-one {
+    font-style: italic;
+    background-image: linear-gradient(to right, black, white);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-content: space-between;
+
+    padding-left: 50%;
+    width: 20rem;
+}
+
+.heading-two {
+    font-style: italic;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mainnav {
+    background: rgba(0,0,0,0.5);
+}
+
+.btn-group button:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.mainnav-button {
+    padding: 20px 20px;
+    border-radius: 61px;
+    position: flex;
+}
+
+li:hover {
+    color: #292929;
+    border: 0px solid #292929;
+    transition: .5s;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: none;
+ }    
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.homeicon {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: auto;
+}
+
+/**
+ * Link List
+ */
+
+.linklist {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 45%; 
+    width: 100%;
+}
+
+.linklist__item {
+    
+}
+
+.linklist__link {
+  background-color: whitesmoke;
+  box-shadow: rgba(81,81,81,.25) 5px 5px;
+  transition-duration: .5s;
+  padding: 24px 24px;
+  width: 200px;
+  cursor: pointer; 
+  display: block;
+  text-align: center;
+  border-radius: 61px;
 }
 
 .button-link {
@@ -87,16 +166,26 @@ p {
     transition: .5s;
     background-color: white;
 }
- 
-li:hover {
-    color: #292929;
-    border: 0px solid #292929;
-    transition: .5s;
+
+
+
+.about-list {
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 32px;
 }
 
-.page-title {
-    
-    color: whitesmoke; 
+
+
+
+/**
+ * Footer nav
+ */
+.footernav {
+    background-color:rgba(0,0,0,0.5);
 }
 
 .fbicon {
@@ -122,70 +211,22 @@ li:hover {
     fill: red;
 }
 
-.linklist {
-    text-align: center;
-    width: 100%;
-}
 
-
-.linklist__item {
-    background-color: whitesmoke;
-    box-shadow: rgba(81,81,81,.25) 5px 5px;
-    transition-duration: .5s;
-    padding: 24px 24px;
-    width: 200px; 
-    cursor: pointer;
-    float: left;
-    position: center;
-  }
-  
-  .linklist__item:not(:last-child) {
-    border-right: none; 
-  }
-  
-  .linklist__item:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  
-  .btn-group button:hover {
-    background-color: rgba(0,0,0,0.5);
-  }
-
-  .mainnav-button {
-      padding: 20px 20px;
-      border-radius: 61px;
-      position: flex;
-  }
+/**
+ * where is this? What is it doing?
+ */
 
  .group {
     position: center;
  }
 
- .about-list {
-     display: flex;
-     justify-content: space-around;
-     box-shadow: none;
- }
-
-.home-logo {
-    display: inline-block;
-    align-content: center;
-    width: 25%;
-    height: 25%;
+ .media {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-    
-     
-
-
-
- .header {
-     
-     display: flex;
-     justify-content: center;
-     padding-top: 10px;
-
- }
+.body-text {
+    padding: 5%;
+}

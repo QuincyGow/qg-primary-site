@@ -1,0 +1,198 @@
+/**
+* Global styles
+*/
+
+*{
+    box-sizing:border-box;
+}
+
+body { 
+    font-family: sans-serif;
+    margin: 0;
+    background: url(http://www.blckdmnds.com/wp-content/uploads/2013/03/six-feet-under-21.jpg) slategray no-repeat center center fixed; 
+    background-size: cover;
+    margin-bottom: 15rem;
+}
+
+a {
+	color: black;
+	transition: all 0.2s ease-in;
+}
+
+a:visited {
+    color: gray; 
+}
+
+a:hover {
+    color: gray;
+    transform: scale(5px);
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+li {
+
+}
+
+
+
+
+/**
+* Component Styles
+*/
+
+.mainnav {
+    
+}
+
+.mainnav-button {
+
+}
+
+.page-title {
+
+}
+
+.home-logo {
+
+}
+
+.header {
+
+}
+
+.heading--one__title {
+
+}
+
+.heading--two__title {
+
+}
+
+.heading--three__title {
+
+}
+
+.heading--four__title {
+
+}
+
+.heading--five__title {
+
+}
+
+.text--body__professional {
+    color: white;
+    opacity: inherit;
+    width: 300px;
+    border: 5rem solid whitesmoke;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    padding: 5%;
+    border-radius: 2rem;
+}
+
+.text--body__personal {
+    
+}
+
+.sections {
+    width: 50%;
+    border: 100px white;
+    background-color: black;
+}
+
+.section__bigborder {
+
+}
+
+.section__smallborder {
+
+}
+
+.text-list--item__professional {
+
+}
+
+.text-list--item__personal {
+
+}
+
+.media-social {
+
+}
+
+.media-social--link {
+
+}
+
+.wrapper {
+
+}
+
+.button-link {
+
+}
+
+.linklist {
+
+}
+
+.linklist__item {
+
+}
+
+.btn-group button:hover {
+/**
+* 2 classes in one?
+*/
+}
+
+li:hover {
+    color: #292929;
+    border: 0px solid #292929;
+    transition: .5s;
+}
+
+/**
+ * Footer nav
+ */
+
+.nav-footer {
+    background-color:rgba(0,0,0,0.5);
+}
+
+.icon-fb {
+    width: 20px;
+    height: 20px;
+    fill: #3b5998;
+}
+
+.icon-twitter {
+    width: 20px;
+    height: 20px;
+    fill: #1DA1F2;
+}
+.icon-github {
+    width: 20px;
+    height: 20px;
+    fill: purple;
+} 
+
+.icon-ig {
+    width: 20px;
+    height: 20px;
+    fill: red;
+}
+
+
+
+

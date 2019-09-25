@@ -160,10 +160,6 @@ li:hover {
     width: 100%;
 }
 
-.linklist__item {
-    
-}
-
 .linklist__link {
   background-color: whitesmoke;
   box-shadow: rgba(81,81,81,.25) 5px 5px;
@@ -188,7 +184,6 @@ li:hover {
     transition: .5s;
     background-color: white;
 }
-
 
 
 .about-list {

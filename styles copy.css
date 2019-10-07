@@ -31,19 +31,20 @@ a:hover {
 p {
     color: white;
     text-align: center;
-    font-family: Source Sans Pro;
-    /**
-    * source sans pro?
-    */
+    font-family: sans-serif;
     font-weight: lighter;
     font-size: 20px;
     margin-top: 0;
 }
 
 li {
-
+    color: #292929;
 }
 
+li:hover {
+    border: 0px solid gray;
+    transition: .5s;
+}
 
 
 
@@ -52,118 +53,205 @@ li {
 */
 
 .mainnav {
-    
+    background: rgba(0,0,0,0.5);
 }
 
 .mainnav-button {
-
+    padding: 20px 20px;
+    border-radius: 61px;
+    position: flex;
 }
 
-.page-title {
-
+.page {
+    font-family: sans-serif;
 }
+
 
 .home-logo {
-
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: auto;
 }
 
 .header {
+    font-style: italic;
+}
 
+.heading {
+    font-style: italic;
+    background-image: linear-gradient(to right, black, white);
 }
 
 .heading--one__title {
-
+    font-style: italic;
+    background-image: linear-gradient(to right, black, white);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    padding-left: 50%;
+    width: 20rem;
+    border-radius: 1rem;
 }
 
 .heading--two__title {
-
+    font-style: italic;
+    background-image: linear-gradient(to right, black, white);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    padding-left: 50%;
+    width: 20rem;
+    border-radius: 1rem;
 }
 
 .heading--three__title {
-
+    font-style: italic;
+    background-image: linear-gradient(to right, black, white);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    padding-left: 50%;
+    width: 20rem;
+    border-radius: 1rem;
 }
 
 .heading--four__title {
-
+    font-style: italic;
+    background-image: linear-gradient(to right, black, white);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    padding-left: 50%;
+    width: 20rem;
+    border-radius: 1rem;
 }
 
 .heading--five__title {
-
+    font-style: italic;
+    background-image: linear-gradient(to right, black, white);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    padding-left: 50%;
+    width: 20rem;
+    border-radius: 1rem;
 }
 
-.text--body__professional {
+.text-field {
     color: white;
     opacity: inherit;
     width: 300px;
     border: 5rem solid whitesmoke;
-    width: 50%;
+    margin: auto;
+    background-color: black;
+}
+
+.text-field__inner {
+    color: white;
+    opacity: inherit;
+    width: 300px;
+    border: 5rem solid whitesmoke;
     margin: auto;
     background-color: black;
     padding: 5%;
     border-radius: 2rem;
 }
 
-.text--body__personal {
-    
-}
-
-.sections {
+.section {
     width: 50%;
-    border: 100px white;
     background-color: black;
 }
 
 .section__bigborder {
-
+    border: 100px white;
 }
 
 .section__smallborder {
-
-}
-
-.text-list--item__professional {
-
-}
-
-.text-list--item__personal {
-
+    border: 40px white;
 }
 
 .media-social {
-
+    width: 20px;
+    height: 20px;
 }
 
 .media-social--link {
-
+    width: 20px;
+    height: 20px;
 }
 
 .wrapper {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.button {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+    background-color: white;
 }
 
 .button-link {
-
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+    background-color: white;
 }
 
 .linklist {
-
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 45%; 
+    width: 100%;
 }
 
 .linklist__item {
-
+    background-color: whitesmoke;
+    box-shadow: rgba(81,81,81,.25) 5px 5px;
+    transition-duration: .5s;
+    padding: 24px 24px;
+    width: 200px;
+    cursor: pointer; 
+    display: block;
+    text-align: center;
+    border-radius: 61px;
 }
 
 .btn-group button:hover {
-/**
-* 2 classes in one?
-*/
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+    background-color: white;
+
 }
 
-li:hover {
-    color: #292929;
-    border: 0px solid #292929;
-    transition: .5s;
-}
+
 
 /**
  * Footer nav
@@ -173,26 +261,23 @@ li:hover {
     background-color:rgba(0,0,0,0.5);
 }
 
-.icon-fb {
+.icon {
     width: 20px;
     height: 20px;
+}
+
+.icon--fb {
     fill: #3b5998;
 }
 
-.icon-twitter {
-    width: 20px;
-    height: 20px;
+.icon--twitter {
     fill: #1DA1F2;
 }
-.icon-github {
-    width: 20px;
-    height: 20px;
+.icon--github {
     fill: purple;
 } 
 
-.icon-ig {
-    width: 20px;
-    height: 20px;
+.icon--ig {
     fill: red;
 }
 
